@@ -2,7 +2,7 @@ header{
     background-color: darkolivegreen;
     color: var(--headline-color-on-dark);
     padding: 2em;
-    background-color: rgba(20,30,13,7 );
+    background-color: rgb(85, 107, 47);
 }
 
 body {
