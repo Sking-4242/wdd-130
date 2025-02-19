@@ -1,3 +1,9 @@
+.bonheur-royale-regular {
+    font-family: "Bonheur Royale", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body {
     background-color: #f5f5eb;
     text-align: center;
@@ -8,6 +14,8 @@ body {
 header {
     color: #606e54;
     margin: 60px;
+    font-family:Bonheur Royale, serif;
+    font-size: 80px;
     
 }
 header img {
@@ -17,6 +25,7 @@ header img {
 }
 h1{
     font-size: 18px;
+   
 }
 
 nav {
@@ -25,5 +34,5 @@ nav {
 }
 /*colors #8A947b
 // colors #606e54
-// colors #FFF6EA
+// colors ##f5f5eb
 */ 
