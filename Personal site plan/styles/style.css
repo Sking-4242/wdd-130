@@ -1,0 +1,29 @@
+body {
+    background-color: #f5f5eb;
+    text-align: center;
+    font-size: 60px;
+    grid-template-columns: 1fr;
+}
+
+header {
+    color: #606e54;
+    margin: 60px;
+    
+}
+header img {
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+h1{
+    font-size: 18px;
+}
+
+nav {
+    font-size:18px;
+    color: black;
+}
+/*colors #8A947b
+// colors #606e54
+// colors #FFF6EA
+*/ 
