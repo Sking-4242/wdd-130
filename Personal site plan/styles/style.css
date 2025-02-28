@@ -95,7 +95,7 @@ header {
   font-family: Bonheur Royale, serif;
   font-size: 30px;
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns:auto;
 }
 
 header > h1,
