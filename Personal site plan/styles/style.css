@@ -1,6 +1,7 @@
 
 
 
+
 /*colors #8A947b
 // colors #606e54
 // colors ##f5f5eb
@@ -12,6 +13,8 @@ Fonts are separated by a | */
 /* TODO: Week07 - if you choose to import fonts, change this line to match your import. */
 @import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Nunito")
 
 /* TODO: Week 07 - The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn. You should have at least 2 colors but do not have to fill in all 4 if you do not need them. */
 :root {
