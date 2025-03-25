@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --primary-color: #606e54;
+  --secondary-color: #8A947b;
+  --accent1-color: #f5f5eb;
+  --accent2-color: #85552B;
+  --heading-font: "Bonheur Royale", serif;
+  --paragraph-font: Tinos, Helvetica, sans-serif;
+  --headline-color-on-white: #85552B;
+  --headline-color-on-color: #606e54;
+  --paragraph-color-on-white: #396e94;
+  --paragraph-color-on-color: black;
+  --paragraph-background-color: #f5f5eb;
+  --nav-link-color: #85552B;
+  --nav-background-color: #f7f9fa;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396e94;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+  font-size: 18px;
+  background-color: var(--accent1-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: var(--paragraph-background-color);
+}
+header img {
+  width: 100px;
+}
+nav {
+  display: flex;
+  gap: 10px;
+}
+nav a {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: var(--nav-link-color);
+  font-family: var(--paragraph-font);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+#hero {
+  position: relative;
+  text-align: center;
+}
+#hero img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    padding: 20px 0 0 0;
+}
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 2em;
+}
+
+
+.question {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    border: 3px solid var(--headline-color-on-color);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--accent1-color);
+    width: 25%;
+    margin: 10px;
+
+}
+h1 {
+    color: var(--headline-color-on-color);
+    font-size: 1.5em;
+    text-align: center;
+}
+main {
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+
+}
+#Questions  {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 25px 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+footer a {
+  color: var(--accent1-color);
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--nav-hover-link-color);
+}
+.social img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      padding: 15px;
+  }
+  nav {
+      flex-direction: column;
+      width: 100%;
+  }
+  nav a {
+      padding: 0.8em;
+      width: 100%;
+  }
+  .hero h1 {
+      font-size: 1.8em;
+  }
+}
