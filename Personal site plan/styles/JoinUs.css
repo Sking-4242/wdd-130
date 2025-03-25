@@ -1,0 +1,107 @@
+/* JoinUs.css */
+
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero image styling */
+.hero img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Join Us section styling */
+.join-us-section {
+    padding: 30px;
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.join-us-section h1 {
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    color: var(--headline-color-on-white);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.join-us-section p {
+    font-family: var(--paragraph-font);
+    font-size: 1.1rem;
+    color: var(--paragraph-color-on-white);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.join-us-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.join-us-section a:hover {
+    text-decoration: underline;
+    color: var(--accent2-color);
+}
+
+/* Activities list styling */
+.activities-list {
+    list-style-type: disc;
+    margin: 20px 0 20px 40px;
+    padding-left: 0;
+}
+
+.activities-list li {
+    font-family: var(--paragraph-font);
+    font-size: 1.1rem;
+    color: var(--paragraph-color-on-white);
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .join-us-section {
+        padding: 20px;
+    }
+
+    .join-us-section h1 {
+        font-size: 2rem;
+    }
+
+    .join-us-section p {
+        font-size: 1rem;
+    }
+
+    .activities-list {
+        margin: 15px 0 15px 30px;
+    }
+
+    .activities-list li {
+        font-size: 1rem;
+    }
+
+    .hero img {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .join-us-section {
+        padding: 15px;
+    }
+
+    .join-us-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero img {
+        max-height: 300px;
+    }
+}
