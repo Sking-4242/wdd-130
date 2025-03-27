@@ -45,11 +45,14 @@ nav a {
   padding: 0.5em 1em;
   text-decoration: none;
   color: var(--nav-link-color);
-  font-family: var(--paragraph-font);
+  font-family: var(--paragraph-font); 
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font); 
 }
 
 .hero {
@@ -71,7 +74,9 @@ nav a:hover {
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   font-size: 2em;
+  font-family: var(--heading-font); 
 }
+
 
 .intro {
   display: grid;
@@ -92,7 +97,7 @@ nav a:hover {
 .intro h2 {
   color: var(--headline-color-on-white);
   text-align: left;
-  
+  font-family: var(--heading-font); 
 }
 .intro p {
   font-family: var(--paragraph-font);
@@ -115,6 +120,7 @@ footer {
 footer a {
   color: var(--accent1-color);
   text-decoration: none;
+  font-family: var(--paragraph-font);
 }
 footer a:hover {
   color: var(--nav-hover-link-color);
